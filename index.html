@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <p class="header__logo">Inmoversión</p>
+            <div class="header__caja">
+                <a class="header__links" href="#hero">Inicio</a>
+                <a class="header__links" href="inmuebles.html">Inmuebles</a>
+                <a class="header__links" href="#inversiones">Proyectos</a>
+                <a class="header__links" href="">Preguntas</a>
+                <a href="#about"><button class="header__contactanos">Contactanos</button></a>
+            </div>
+            <img class="header__menu" src="assets/img/menu.png" alt="">
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+
+            <!-- BUSCADOR BUSCADOR -->
+            <div class="hero__caja">
+                    <div class="hero__caja--titulo">
+                        <h1 class="hero__h1">Consegui tu<span> vivienda</span></h1>
+                    </div>
+                    
+                    <div class="hero__caja--botones">
+                        <button class="hero__botones">Comprar</button>
+                        <button class="hero__botones">Alquilar</button>
+                        <button class="hero__botones">Vender</button>
+                        <button class="hero__botones">Invertir</button>
+                    </div>
+                <div class="hero__buscador">
+                    <div class="hero__localidad">
+                        <select name="" id="">
+                            <option value="">Departamento</option>
+                            <option value="">Casa</option>
+                            <option value="">Mansion</option>
+                            <option value="">Terreno</option>
+                            <option value="">Oficina</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Dormitorios</option>
+                            <option value="">Oficinas</option>
+                            <option value="">Baños</option>
+                        </select>
+                    </div>
+                    <div class="hero__lupa">
+                        <input type="text" placeholder="ingresa ubicacion, barrio o localidad">
+                    </div>
+                    <div class="hero__imagen">
+                        <img src="/assets/icons8-search-50.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="inversiones" id="inversiones">
+            <h2 class="inversiones__h2">Inverti en propiedades</h2>
+            <div class="inversiones__caja">
+                <div class="inversiones__caja--cartas">
+                    <img class="inversiones__imagen" src="/assets/izquierda.jpg" alt="">
+                    <div class="contenido_carta">
+                        <p>500.000 USD</p>
+                        <p class="localidad_carta">Buenos Aires, Argentina</p>
+                        <div class="inversiones__caja--detalles">
+                            <img src="/assets/icons8-location-32.png" alt="">
+                            <p class="calle_carta">Bartungu 2078</p>
+                        </div>
+                        <div class="inversiones__caja--carta">
+                            <button class="inversiones__boton">Ver detalles</button>
+                            <img src="/assets/icons8-map-marker-50.png" alt="">
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="inversiones__caja--cartas">
+                    <img class="inversiones__imagen" src="/assets/medio.jpg" alt="">
+                    <div class="contenido_carta">
+                        <p>380.000 USD</p>
+                        <p class="localidad_carta">Santiago, Chile</p>
+                        <div class="inversiones__caja--detalles">
+                            <img src="/assets/icons8-location-32.png" alt="">
+                            <p class="calle_carta">San Martin 3452</p>
+                        </div>
+                        <div class="inversiones__caja--carta">
+                            <button class="inversiones__boton">Ver detalles</button>
+                            <img src="/assets/icons8-map-marker-50.png" alt="">
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="inversiones__caja--cartas">
+                    <img class="inversiones__imagen" src="/assets/derecha.jpg" alt="">
+                    <div class="contenido_carta">
+                        <p>320.000 USD</p>
+                        <p class="localidad_carta">Brasilia, Brasil</p>
+                        <div class="inversiones__caja--detalles">
+                            <img src="/assets/icons8-location-32.png" alt="">
+                            <p class="calle_carta">Sao Paulo 1319</p>
+                        </div>
+                        <div class="inversiones__caja--carta">
+                            <button class="inversiones__boton">Ver detalles</button>
+                            <img src="/assets/icons8-map-marker-50.png" alt="">
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </section>
+
+        <section class="about" id="about">
+            <div class="about__izquierda">
+                <h3 class="about__h3">Conversa con nosotros</h3>
+                <p class="about__texto">Nuestro equipo estara encantado de resolver cualquier tipo de duda, inconveniente o problema que tengas, 
+                    te daremos asesoramiento y disfrutaremos de poder conocerte!</p>
+                    <img class="about__img" src="/assets/DreamShaper_v7_image_of_a_modern_mansion_for_buying_and_sellin_1.jpg" alt="">
+            </div>
+            <div class="about__derecha">
+                <form action="">
+                    <label class="about__label" for="">Nombre Completo</label>
+                    <input class="about__input" type="text" placeholder="escriba su nombre aqui">
+                    <label class="about__label" for="">Email</label>
+                    <input class="about__input" type="email" placeholder="example@hotmail.com">
+                    <label class="about__label" for="">Telefono</label>
+                    <input class="about__input" type="number" placeholder="+54 () 0000 0000">
+                    <label class="about__label" for="">mensaje</label>
+                    <textarea class="about__consulta" name="" id="" cols="30" rows="10" placeholder="Haga su consulta"></textarea>
+                    <div class="about__checkbox">
+                        <input type="checkbox" name="" id="">
+                    <p>Acepto la politica de privacidad</p>
+                    </div>
+                         <input class="about__submit" type="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
