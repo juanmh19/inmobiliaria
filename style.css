@@ -81,7 +81,7 @@
 /* SECCION N1 SECCION N1*/
 .hero {
     height: 92vh;
-    background-image: url(assets/Proyecto\ nuevoa.jpg);
+    background: url(assets/Proyecto\ nuevoa.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
